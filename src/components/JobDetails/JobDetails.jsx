@@ -48,8 +48,8 @@ const JobDetails = () => {
                 jobDetail && jobDetail.map(
                     (val, i) => (
                         <div key={i} >
-                            <div className='grid grid-cols-2 gap-4 m-6 rounded justify-between'>
-                                <div className='ml-24'>
+                            <div className='grid lg:grid-cols-2 gap-4 m-6 rounded place-items-center'>
+                                <div className='ml-12'>
                                     <p><span className='text-lg font-bold'>Job Description: </span>{val.JobDescription}</p>
 
                                     <p><span className='text-lg font-bold'>Job Responsibility: </span>{val.JobResponsibility}</p>
@@ -58,7 +58,7 @@ const JobDetails = () => {
 
                                     <p><span className='text-lg font-bold'>Experience: </span><br />{val.Experience}</p>
                                 </div>
-                                <div className='w-96'>
+                                <div className=''>
                                     <div className='bg-gray-300 rounded p-5 '>
                                         <h1 className='text-lg font-bold'>Job Details</h1>
                                         <hr />

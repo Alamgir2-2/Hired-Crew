@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Footer = () => {
     return (
         <div className='bg-gray-900 p-6'>
-            <div className='grid lg:grid-cols-5 place-items-center mb-8 text-gray-300'>
+            <div className='grid lg:grid-cols-5 md:grid-cols-3 gap-8 justify-between mb-8 text-gray-300'>
                 <div>
                     <Link to='/'><h1 className='text-3xl font-bold'>Hired Crew</h1></Link>
                     <p className='my-3'>There are many variations of passages of Lorem Ipsum</p>
