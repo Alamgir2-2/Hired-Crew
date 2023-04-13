@@ -32,7 +32,7 @@ const Header = () => {
                 </ul>
             </div>
             <div>
-                <button className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded md:text-center'>Start Applying</button>
+                <Link to=''><button className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded hidden lg:block'>Start Applying</button></Link>
             </div>
             <div className='lg:hidden'>
                 <button
